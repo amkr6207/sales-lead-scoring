@@ -2,7 +2,7 @@
 
 This project predicts lead conversion probability using behavioral and firmographic data. This project is specifically designed to showcase how to turn raw CRM data (simulating **Zoho CRM**) into actionable sales intelligence.
 
-## � Project Overview
+## 📊 Project Overview
 Lead scoring helps sales teams prioritize high-value prospects. This pipeline processes raw CRM data, performs feature engineering, trains a machine learning model, and provides an interactive dashboard for prediction.
 
 ### Key Results
@@ -16,7 +16,7 @@ Lead scoring helps sales teams prioritize high-value prospects. This pipeline pr
 - **Visualization:** Matplotlib, Seaborn
 - **Model Deployment:** Joblib
 
-## � Project Structure
+## 📁 Project Structure
 - `data_gen.py`: Generates synthetic lead data with realistic B2B distributions.
 - `preprocessing.py`: Handles data cleaning, LabelEncoding, and feature engineering.
 - `model.py`: Trains and evaluates the Random Forest model.
