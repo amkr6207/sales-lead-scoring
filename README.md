@@ -43,8 +43,5 @@ python3 model.py
 streamlit run app.py
 ```
 
-## 📈 Resume Impact (Highlights)
-- **Problem:** Eliminated manual lead sorting by automating prioritization for 1,000+ records.
-- **Solution:** Developed an end-to-end ML pipeline with a **91% accurate** predictive model.
-- **Outcome:** Created a live BI tool that identifies "High Potential" leads instantly based on digital footprint.
+
 
