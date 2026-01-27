@@ -32,3 +32,6 @@ desktop.ini
 
 #doc
 docs/
+dashboard_assets/
+dashboard.html
+dashboard_gen.py

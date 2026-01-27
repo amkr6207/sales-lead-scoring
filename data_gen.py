@@ -21,7 +21,7 @@ def generate_leads_data(n=1500):
     df = pd.DataFrame(data)
 
     # Logic to decide "Converted" based on behavior
-    # Engagement score = visits * time + clicks * 5
+    # Engagement score = visits * time + clicks * Weight + opens * Weight
     engagement_score = (df['Total_Web_Visits'] * df['Avg_Time_Per_Visit']) + (df['Email_Clicks'] * 10) + (df['Email_Opens'] * 2)
     
     # Baseline conversion chance
